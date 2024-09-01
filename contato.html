@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Telles</title>
+    <link rel="icon" href="livro-de-contato.png" type="image/png">
+    <header class="header"></header>
+
+    <nav >
+        <ul>
+            <li><a href="index.html"class="menu1">Sobre</a></li>
+            <li><a href="formacao.html"class="menu2">Formação</a></li>
+            <li><a href="portifolio.html"class="menu3">Portifólio</a></li>
+            <li><a href="contato.html"class="menu4">Contato</a></li>
+        </ul>
+    </nav>
+    <style>
+        li, a {            
+            text-decoration: none;
+            list-style-type: none;
+            margin: auto;
+            width: 300px;
+            padding: 5px 16px;
+            display: block;
+            color: #000;
+            text-align: center; 
+            float: left;
+            background-color: #9E635B;
+            font-size:larger;
+            border-radius: 10px;
+        }
+        .menu1{
+            padding: 5px;
+        }
+        .menu2{
+            padding: 5px;
+        }
+        .menu3{
+            padding: 5px;
+        }
+        .menu4{
+            padding: 5px;
+        }
+        .menu1:hover{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .menu2:hover{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .menu3:hover{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .menu4:hover{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .color{
+            background-color: #f9e1c1;
+        }
+        .titulo{
+            text-align: center;
+           
+        }
+        header {
+            height: 120px;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            background-color: #f9e1c1;
+            background:url(contato.jpg)no-repeat center;
+        }
+        .texto{
+            font-size: x-large;
+            text-align: left;
+            padding: 2%;
+            padding-left: 10%;
+            padding-right: 40%;
+        }
+        .perfil{
+            margin-top: 15px;
+            margin-right: 15px;
+            border-style: solid;
+            border-color: #9E635B;
+            border-radius: 5px;
+        }
+        .mensagem{
+            width: 500px;
+        }
+        .enviar{
+            width: 200px;
+            background-color: #343b79;
+            font-size: large;
+            font-style: italic;
+            color:#ffffff
+        }
+        .enviar:hover{
+            font-weight: bolder;
+            font-size: x-larg
+        }
+    </style>
+   
+</head>
+<body class="color">
+        <aside>
+        <img src="perfil.jpg" style="float: right; width: 25%;" alt="Foto de perfil"  class="perfil"><br>
+    </aside>
+    <section class="texto">
+        <form action="https://www.google.com/pt-BR/gmail/anatellesartes@gmail.com" method="get">
+            <p>Formulário para contato:</p>
+            Nome:<input type="name" name="Nome" placeholder="Digite aqui"><br><br>
+            Email:<input type="email" name="email"placeholder="Digite aqui"><br><br>
+            Mensagem: <input class="mensagem" type="text" name="Mensagem"placeholder="Digite aqui"><br><br>
+            <button class="enviar" type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer style="margin-top:25%; margin-left: 10%;">
+        <p>Página desenvolvida por Ana Telles. <br> Ícone da janela feito por: Icongeek26 from www.flaticon.com</p>
+    </footer>
+</body>
+</html>
